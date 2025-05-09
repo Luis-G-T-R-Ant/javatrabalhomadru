@@ -10,7 +10,7 @@ public class Exercicio10 {
 		
 		System.out.println ("Ultimo digito da sua placa:");
 		double placa = teclado.nextDouble(); //le o input
-		String dia = ("Erro");
+		String dia = "";
 		
 		if (placa==1 || placa==2) {
 			 dia = ("Segunda");
